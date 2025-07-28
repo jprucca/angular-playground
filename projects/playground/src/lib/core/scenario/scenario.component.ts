@@ -157,6 +157,7 @@ export class ScenarioComponent implements OnInit, OnChanges, OnDestroy {
         }
 
         return Component({
+            standalone: true,
             selector: 'playground-host',
             template: scenario.template,
             styles: scenario.styles,
